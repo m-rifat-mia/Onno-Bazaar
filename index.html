@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OnnoBazar-অন্নবাজার is an organic grocery store.">
+    <title>OnnoBazar-অন্নবাজার</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!-- font family -->
+   
+   
+    <!-- css link -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- <i class="fa-solid fa-bars" id="menu_icon"></i> -->
+    <!-- navbars starts here -->
+    <nav >
+        <ul class="upper-navbar flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" class="nav-link">Log in</a>
+            </li>
+            <li class="nav-list">
+                <a href="logout.html" class="nav-link">Log Out</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" class="nav-link">Contact US</a>
+            </li>
+            <li class="nav-list">
+                <a href="user.html" class="nav-link cancel-hover">
+                    <img class="logo" src="./images/logo.png" alt="logo">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="lower-nav flex-space-around">
+            <li class="nav-list"><a href="index.html" class="nav-link nav-brand">OnnoBazar-অন্নবাজার</a></li>
+            <li class="nav-list"><a href="cart.html" class="nav-link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                Cart 2 products - $120
+            </a></li>
+        </ul>
+    </nav>
+    <!-- navbars end here -->
+    <!-- header starts here -->
+    <header class="header" >
+        <div class="banner flex-space-around">
+                <marquee class="banner-title" behavior="" direction="">50% Sales Going On</marquee>
+            <div class="flex-space-around features">
+                <div class="feature flex_center">
+                    <i class="fa-sharp fa-solid fa-truck-fast features_item
+                    "></i>
+                    <h3>Shipping within 7days</h3>
+                </div>
+                <div class="feature flex_center">
+                    <i class="fa-solid fa-comment features_item"></i>
+                    <h3>support 24/7</h3>
+                </div>
+                <div class="feature flex_center">
+                    <i class="fa-solid fa-credit-card features_item"></i>
+                    <h3>Safe Payment</h3>
+                </div>
+            </div>
+        </div>
+        
+    </header>
+    <!-- header ends here -->
+    <!-- Main is start here -->
+    <main class="flex_center">
+        <div class="side-bar">
+            <section class="categories-section">
+                <h3 class="section-title">Categories</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="Spices">
+                            <input type="checkbox" name="spices" id="spices" value="spices">
+                            Spices
+                        </label>
+                    </li>
+
+                    <li class="list-item">
+                        <label for="sauces&pickles">
+                            <input type="checkbox" name="sauces&pickles" id="sauces&pickles" value="sauces&pickles">
+                            Sauces & Pickles
+                        </label>
+                    </li>
+
+                    <li class="list-item">
+                        <label for="salt & sugar">
+                            <input type="checkbox" name="salt & sugar" id="salt & sugar" value="salt & sugar">
+                            Salt & Sugar
+                        </label>
+                    </li>
+
+                    <li class="list-item">
+                        <label for="Ghee & Butter">
+                            <input type="checkbox" name="Ghee & Butter" id="Ghee & Butter" value="Ghee & Butter">
+                            Ghee & Butter
+                        </label>
+                    </li>
+
+                    <li class="list-item">
+                        <label for="Rice & Lentil">
+                            <input type="checkbox" name="Rice & Lentil" id="Rice & Lentil" value="Rice & Lentil">
+                            Rice & Lentil
+                        </label>
+                    </li>
+
+                    <li class="list-item">
+                        <label for="Oil">
+                            <input type="checkbox" name="Oil" id="Oil" value="Oil">
+                            Oil
+                        </label>
+                    </li>
+
+                    <li class="list-item">
+                        <label for="Ready Mix">
+                            <input type="checkbox" name="Ready Mix" id="Ready Mix" value="Ready Mix">
+                            Ready Mix
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <section class="price-section">
+                <h3 class="section-title">Price Range</h3>
+                <ul class="list">
+                    <li class="list-item">
+                        <label for="price-1">
+                            <input type="radio" name="price" id="price-1" value="0-20">
+                            $0-$20
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price-2">
+                            <input type="radio" name="price" id="price-2" value="21-50">
+                           $21-$50
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price-3">
+                            <input type="radio" name="price" id="price-3" value="51-100">
+                            $51-$100
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price-4">
+                            <input type="radio" name="price" id="price-4" value="101-150">
+                            $101-$150
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="price-5">
+                            <input type="radio" name="price" id="price-5" value="151-200">
+                            $151-$200
+                        </label>
+                    </li>
+                </ul>
+
+            </section>
+            <section class="payment-section">
+                <h3 class="section-title">
+                    Payment Option
+                </h3>
+                <ul class="list">
+                    <li class="list-item">
+                       
+                        <label for="cash-on">
+                            <input type="radio" name="payment" id="cash-on" value="cash-on">
+                            Cash On Delivary
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        
+                            <input type="radio" name="payment" id="mobile" value="mobile">
+                        <label for="mobile">
+                            Mobile Banking
+                        </label>
+                    </li>
+                    <li class="list-item">
+                        <label for="card">
+                            <input type="radio" name="payment" id="card" value="card">
+                            Debit/Credit Card
+                        </label>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="main-content">
+            <section class="actons flex-space-around">
+                <div class="actions-sort">
+                    <label for="sort">Sort By:</label>
+                    <select name="sort" id="sort">
+                        <option value="sold">Most Sold First</option>
+                        <option value="rating">Most Rated First</option>
+                        <option value="low-price">Price Low to High</option>
+                        <option value="high-price">Price HIgh to LOw</option>
+                        <option value="discount">Biggest Discount First</option>
+                    </select>
+                </div>
+                <div class="actions-search">
+                    <input type="text" placeholder="Search Products">
+                    <button class="btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!-- products sections starts here -->
+            <section class="products">
+                <div class="product .card">
+                    <div class="badge">
+                        <p>In Stock</p>
+                        <hr class="hr_design">
+                        <p>5 Sold</p>
+                    </div>
+                    <img src="./images/almond.png" alt="almond">
+                    <div class="product_body">
+                        <h4 class="product_name">
+                            Almond
+                        </h4>
+                        <p class="product_qun">
+                            <span class="dot_250gm">250 gm</span>
+                            <span class="dot_500gm">500 gm</span>
+                            <span class="dot_1000gm">1000 gm</span>
+                        </p>
+                        <p class="product_desc">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eaque provident unde veritatis sint fugit... <a href="/product.html">Learn more</a>
+                        </p>
+                        <h4 class="product_price">
+                            Price:$100
+                        </h4>
+                        <p class="product_rating">
+                            4.5/5
+                        </p>
+                        <button class="btn product_button">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product card">
+                    <div class="badge">
+                        <p>In Stock</p>
+                        <hr class="hr_design">
+                        <p>5 Sold</p>
+                    </div>
+                    <img src="./images/almond.png" alt="almond">
+                    <div class="product_body">
+                        <h4 class="product_name">
+                            Almond
+                        </h4>
+                        <p class="product_qun">
+                            <span class="dot_250gm">250 gm</span>
+                            <span class="dot_500gm">500 gm</span>
+                            <span class="dot_1000gm">1000 gm</span>
+                        </p>
+                        <p class="product_desc">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eaque provident unde veritatis sint fugit... <a href="/product.html">Learn more</a>
+                        </p>
+                        <h4 class="product_price">
+                            Price:$100
+                        </h4>
+                        <p class="product_rating">
+                            4.5/5
+                        </p>
+                        <button class="btn product_button">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="badge">
+                        <p>In Stock</p>
+                        <hr class="hr_design">
+                        <p>5 Sold</p>
+                    </div>
+                    <img src="./images/almond.png" alt="almond">
+                    <div class="product_body">
+                        <h4 class="product_name">
+                            Almond
+                        </h4>
+                        <p class="product_qun">
+                            <span class="dot_250gm">250 gm</span>
+                            <span class="dot_500gm">500 gm</span>
+                            <span class="dot_1000gm">1000 gm</span>
+                        </p>
+                        <p class="product_desc">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia eaque provident unde veritatis sint fugit... <a href="/product.html">Learn more</a>
+                        </p>
+                        <h4 class="product_price">
+                            Price:$100
+                        </h4>
+                        <p class="product_rating">
+                            4.5/5
+                        </p>
+                        <button class="btn product_button">Add to Cart</button>
+                    </div>
+                </div>
+                
+                
+            </section>
+            <!-- products sections ends here -->
+        </div>
+    </main>
+    <!-- Main is ends here -->
+    <!-- footer area start here -->
+    <footer class="flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe for newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" placeholder="Your Email Address" class="footer_input">
+            <button class="btn subscribe_btn">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 OnnoBazar-অন্নবাজার. All rights reserved</p>
+        </div>
+    </footer>
+    <!-- footer area end here-->
+
+
+     <!-- font aws0me cdn -->
+     <script src="https://kit.fontawesome.com/59ec0bffb6.js" crossorigin="anonymous"></script>
+</body>
+</html>
